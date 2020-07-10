@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Jets.application.configure do
   config.project_name = "sample"
   config.mode = "html"
@@ -60,5 +62,4 @@ Jets.application.configure do
   # local testing environment you may want to log these messages to 'test.log' file to keep your
   # testing suite output readable.
   # config.logger = Jets::Logger.new($strerr)
-
 end
